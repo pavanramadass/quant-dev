@@ -1,6 +1,4 @@
-# main.py
-
-from SD import SD 
+# main.py 
 from objectCreator import createTechAnalysisObject
 
 '''

@@ -1,4 +1,4 @@
-from SD import SD 
+from technical_analyses import SD 
 from main import menu 
 
 # lists the valid object types that can be created 
