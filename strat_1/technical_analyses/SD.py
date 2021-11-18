@@ -3,7 +3,7 @@
 from dataHandler import DataHandler 
 
 '''
-This class will find the second derivative (aka the acceleration) of the market.
+This class will find the nth derivative of the market.
 '''
 
 class SD:
@@ -62,7 +62,7 @@ class SD:
             - candle_choice = (str) the choice of candle data to receive from the data handler object
         
         Returns:
-            - List of nth derivatives over the stock data 
+            - (List) List of nth derivatives over the stock data 
     """
     def calculateDerivative(self, time_interval, current_time, candle_choice):
         data = self.dataHandler.getData(time_interval + self.derivative, current_time, candle_choice)
